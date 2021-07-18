@@ -105,14 +105,42 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
   font-size: 1.25em;
-  height: 100%;
-  background-color: #9c423d;
+  background-color: #1b4446;
 }
 
 .wrapper {
   display: flex;
   justify-content: space-between;
-  font-weight: 700;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+header,
+footer,
+main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  color: white;
+}
+
+header h1 {
+    padding-bottom: 0.7em;
+    font-size: 2.3em;
+}
+
+main {
+    font-size: 1.5em;
+    padding-bottom: 1em;
+    border-bottom: 3px solid white;
+    margin-bottom: 0.8em;
+}
+
+footer {
+    border-top: 3px solid white;
+    margin-top: 0.8em;
+    padding-top: 1em;
 }
 
 .div-1, .div-2, .div-3 {
@@ -124,10 +152,8 @@ body {
   color: #fff;
   line-height: 1.5em;
   font-size: 1em;
-  height: 300px;
+  height: 250px;
   padding: 0 1em;
-  border-top: 3px solid white;
-  border-bottom: 3px solid white;
 }
 
 .div-2 {
